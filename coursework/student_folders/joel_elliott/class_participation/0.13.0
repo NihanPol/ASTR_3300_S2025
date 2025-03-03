@@ -1,0 +1,26 @@
+Requirement already satisfied: arviz in c:\users\jeell\appdata\roaming\python\python39\site-packages (0.12.1)
+Requirement already satisfied: matplotlib>=3.0 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (3.5.2)
+Requirement already satisfied: xarray>=0.16.1 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (2023.12.0)
+Requirement already satisfied: packaging in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (21.3)
+Requirement already satisfied: pandas>=0.23 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (1.4.4)
+Requirement already satisfied: numpy>=1.12 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (1.26.4)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (4.3.0)
+Requirement already satisfied: scipy>=0.19 in c:\users\jeell\appdata\roaming\python\python39\site-packages (from arviz) (1.7.3)
+Requirement already satisfied: xarray-einstats>=0.2 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (0.6.0)
+Requirement already satisfied: netcdf4 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (1.7.2)
+Requirement already satisfied: setuptools>=38.4 in c:\users\jeell\anaconda3\lib\site-packages (from arviz) (63.4.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (4.25.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (1.4.2)
+Requirement already satisfied: pyparsing>=2.2.1 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (3.0.9)
+Requirement already satisfied: cycler>=0.10 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (0.11.0)
+Requirement already satisfied: python-dateutil>=2.7 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (2.8.2)
+Requirement already satisfied: pillow>=6.2.0 in c:\users\jeell\anaconda3\lib\site-packages (from matplotlib>=3.0->arviz) (9.2.0)
+Requirement already satisfied: pytz>=2020.1 in c:\users\jeell\anaconda3\lib\site-packages (from pandas>=0.23->arviz) (2022.1)
+Collecting numpy>=1.12
+  Downloading numpy-1.22.4-cp39-cp39-win_amd64.whl (14.7 MB)
+     --------------------------------------- 14.7/14.7 MB 40.9 MB/s eta 0:00:00
+Requirement already satisfied: certifi in c:\users\jeell\anaconda3\lib\site-packages (from netcdf4->arviz) (2022.9.14)
+Requirement already satisfied: cftime in c:\users\jeell\anaconda3\lib\site-packages (from netcdf4->arviz) (1.6.4.post1)
+Requirement already satisfied: six>=1.5 in c:\users\jeell\anaconda3\lib\site-packages (from python-dateutil>=2.7->matplotlib>=3.0->arviz) (1.16.0)
+Installing collected packages: numpy
+Successfully installed numpy-1.22.4
